@@ -1,7 +1,8 @@
 .hero{
     background: url(baground.jpg) no-repeat center center; 
     background-size: cover;
-    height: 100vh;
+   max-height: 100%;
+    height:auto;
     
 }
 .hero-overlay{
