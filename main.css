@@ -1,9 +1,10 @@
 .hero{
-    background: url(baground.jpg) no-repeat center center; 
+    background: url(baground.jpg) no-repeat center center ; 
     background-size: cover;
    height: 100vh;
     
     
+   
 }
 .hero-overlay{
     width: 100%;
@@ -18,3 +19,12 @@
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgb(0,0,0,0.2);
 }
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
